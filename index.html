@@ -1,0 +1,432 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Center of Excellence</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="images/fav/favicon.ico" type="image/x-icon" sizes="16x16">
+  <link rel="stylesheet" href="css/bootstrap.min.css" >
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery1.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="css/animate.css">
+ <link rel="stylesheet" href="css/customstyle.css">
+<link rel="stylesheet" href="css/customstyle2.css">
+
+</head>
+
+<body>
+<header>
+ <div id="navigation" class="navbar navbar-inverse navbar-fixed-top opaque-navbar" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <a class="navbar-brand nav-img" href="#"><img src="images/logo.png" width="179" height="50" alt=""/></a>
+      
+    </div>
+<a href="#" class="navbar-brand pull-right hidden-xs"><img src="images/ism2.png" class="img-responsive navbar-right" ></a>
+	<div class="navigation">
+    <div class="collapse navbar-collapse" id="mynavbar"><nav>
+      <ul class="nav navbar-nav ">
+        <li class="current"><a href="index.html">Home</a></li>
+		<li><a href="About us.html">About Us</a></li>
+		<li><a href="products.html">Products</a></li>
+
+		<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Technology</a>
+
+    	<ul class="dropdown-menu">
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Mobile Technologies</a>
+          <ul class="dropdown-menu">
+            <li><a href="Android.html">Android App Dev</a></li>
+		   <li><a href="IOS.html">IOS App Dev</a></li>
+		   <li><a href="chatbot.html">Chatbot App Dev</a></li>
+		   <li><a href="Hybrid.html">Hybrid App Dev</a></li>
+			  </ul>
+          </li>
+
+          <li><a href="cloud computing.html">Cloud Computing</a></li>
+        </ul>
+    	</li>
+
+     	<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Team</a>
+
+     	<ul class="dropdown-menu">
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Students</a>
+          <ul class="dropdown-menu">
+          <li><a href="Student profile.html">Profile</a></li>
+		   <li><a href="#">Contribution</a></li>
+		   <li><a href="#">Expertise</a></li>
+         </ul>
+          </li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Faculty</a>
+          <ul class="dropdown-menu">
+          <li><a href="Faculty.html">Profile</a></li>
+		   <li><a href="#">Contribution</a></li>
+		   <li><a href="#">Expertise</a></li>
+         </ul>
+          </li>
+        </ul>
+     	</li>
+		<li><a href="Gallery.html">Gallery</a></li>
+      </ul></nav>
+    </div><!-- /.navbar-collapse -->
+	</div>
+
+  </div>
+</div>
+
+</header>
+
+<!-----CAROUSEL SECTION---->
+<section id="slider">
+<div class="container-fluid">
+
+  <div id="myCarousel" class="carousel slide hidden-xs" data-ride="carousel"><!--hideen in xs-->
+
+<!--Indicators-->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="images/carousel-image1.png" alt="" style="width:100%;">
+        <div class="carousel-content">
+        <div class="fadeInDown">
+        <h1 class="text-center">Welcome</h1>
+        <h1 class="text-center">to</h1>
+        <h1 class="text-center">Center of Excellence</h1>
+        </div>
+      </div>
+      </div>
+
+      <div class="item">
+        <img src="images/carousel-image2.png" alt="WebTemplate-1" style="width:100%;">
+                <div class="carousel-content2">
+        <div class="fadeInDown">
+        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+      </div>
+      </div>
+
+      <div class="item">
+        <img src="images/carousel-image3.png" alt="WebTemplate-1" style="width:100%;">
+                <div class="carousel-content2">
+        <div class="fadeInDown">
+        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+      </div>
+
+      </div>
+
+      <div class="item">
+        <img src="images/carousel-image4.png" alt="WebTemplate-2" style="width:100%;">
+                <div class="carousel-content2">
+        <div class="fadeInDown">
+        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+      </div>
+      </div>
+
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left img-circle"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right img-circle"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+</section>
+
+<!--XS BANNER-->
+<section id="index-banner" class="hidden-lg hidden-md hidden-sm"><!--Hidden in lg,md,sm-->
+  <div class="container-fluid">
+    <div class="row">
+      <img src="images/index-banner.png" class="img-responsive">
+    </div>
+  </div>
+</section>
+<!---PRODUCTS SECTION-->
+<section id="pro" class="hidden-lg hidden-md">
+<div class="container">
+<div class="row">
+  <h2 class="text-center">Our Products</h2>
+</div>
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+            <div class="box">
+                <div class="box-icon">
+                    <img src="images/products/rankworld.png">
+                </div>
+                <div class="info">
+                    <h4 class="text-center">Rank World</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti atque, tenetur quam aspernatur corporis at explicabo nulla dolore necessitatibus doloremque exercitationem sequi dolorem architecto perferendis quas aperiam debitis dolor soluta!tenetur quam aspernatur</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+            <div class="box">
+                <div class="box-icon">
+                    <img src="images/products/safetyleaf.png">
+                </div>
+                <div class="info">
+                    <h4 class="text-center">Safteyleaf</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti atque, tenetur quam aspernatur corporis at explicabo nulla dolore necessitatibus doloremque exercitationem sequi dolorem architecto perferendis quas aperiam debitis dolor soluta!</p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+            <div class="box">
+                <div class="box-icon">
+                    <img src="images/products/mvite.png">
+                </div>
+                <div class="info">
+                    <h4 class="text-center">Mvite</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti atque, tenetur quam aspernatur corporis at explicabo nulla dolore necessitatibus doloremque exercitationem sequi dolorem architecto perferendis quas aperiam debitis dolor soluta!</p>
+
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+            <div class="box">
+                <div class="box-icon">
+                    <img src="images/products/stopple.png">
+                </div>
+                <div class="info">
+                    <h4 class="text-center">Stopple</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti atque, tenetur quam aspernatur corporis at explicabo nulla dolore necessitatibus doloremque exercitationem sequi dolorem architecto perferendis quas aperiam debitis dolor soluta!</p>
+                </div>
+            </div>
+        </div>
+ </div>
+</div>
+</section>
+
+<section id=products-md class="hidden-xs hidden-sm">
+  <h2 class="text-center">Our Products</h2>
+  <div class="container">
+      <div id="product-carousel">
+      <figure><img src="images/products/rsz_rankworld.png" alt=""></figure>
+      <figure><img src="images/products/rsz_safetyleaf.png" alt=""></figure>
+      <figure><img src="images/products/rsz_mvite.png" alt=""></figure>
+      <figure><img src="images/products/rsz_stopple.png" alt=""></figure>
+      <figure><img src="images/products/rsz_fankick.png" alt=""></figure>
+      <figure><img src="images/products/rsz_safetyleaf.png" alt=""></figure>
+      <figure><img src="images/products/rsz_mvite.png" alt=""></figure>
+      <figure><img src="images/products/rsz_stopple.png" alt=""></figure>
+      <figure><img src="images/products/rsz_safetyleaf.png" alt=""></figure>
+    </div>
+  </div>
+</section>
+<!-- About Section -->
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About us</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <p class="text-justify">Gemini Consulting & Services (GCS, www.gemini-us.com) believes in innovation and transforming ideas into new products and services through leading edge technology expertise and business domain knowledge. The concept of Gemini was developed by best and the brightest in the field of IT consulting, healthcare, staffing & recruiting and HR consulting to provide myriad services under one roof to its clients.</p>
+                </div>
+                <div class="col-lg-6">
+                    <p class="text-justify">Housed with professionals, who are graduates of top Engineering schools and Business schools and years of industry experience under their belt, Gemini strives to be an international player in the field of consulting business. Having a strong presence in the St. Louis area and cross industry network of clients, the company is among the major players providing IT consulting services in the Midwest region.</p>
+                </div>
+                  <div class="about-btn text-center"><a href="#"><button type="button" class="btn btn-default">Read more</button></a></div>
+            </div>
+        </div>
+    </section>
+<!-----TECHNOLOGY SECTION---->
+<section id="technology">
+  <div class="container">
+<div class="technologies">
+  			<h2 class="text-center">Technology</h2>
+
+  	<div class="row">
+      <div class="col-md-6">
+        <div class="technology fadeInDown">
+          <img class="img-responsive" src="images/Technology/tech1.png" alt="">
+          <div class="overlay">
+            <div class="tech-inner">
+            <h3 class="text-center">Mobile Technology</h3>
+            <p class="text-center">Mobile technologies are based on development of Android,IOS app dev etc.</p>
+				<p class="text-center"><a href="#" title="Mobile Technologies" data-toggle="popover"  data-content="At ISM we provide internship on mobile technologies like Android,IOS,Hybrid and chatbot app development"><i class="fa fa-angle-double-right" aria-hidden="true"></i>
+Read More</a>
+</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="technology fadeInDown">
+          <img class="img-responsive" src="images/Technology/tech2.png" alt="">
+          <div class="overlay">
+            <div class="tech-inner">
+            <h3 class="text-center">Cloud Marketing</h3>
+            <p class="text-center">Cloud marketing gives a brief explaination on leading cloud vendors.</p>
+				<p class="text-center"><a href="cloud computing.html"><i class="fa fa-angle-double-right" aria-hidden="true"></i>
+Read More</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+</div>
+</div>
+	</div>
+</section>
+<!--OUR GALLERY SECTION-->
+<section id="our-gallery">
+<!---container-->
+<div class="container">
+<!---gallery-heading-->
+    <div class="gallery text-center">
+        <h2>Our Gallery</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+    </div>
+	<!---galllery-images-->
+	<div class="row">
+<div class="col-xs-6 col-sm-6 col-md-3">
+<div class="gallery-images">
+<img class="img-responsive" src="images/IMG_0391.jpg">
+
+</div>
+</div>
+<div class="col-xs-6 col-sm-6 col-md-3 ">
+<div class="gallery-images">
+<img class="img-responsive" src="images/IMG_0843.jpg">
+
+</div>
+</div>
+<div class="col-xs-6 col-sm-6 col-md-3 ">
+<div class="gallery-images">
+<img class="img-responsive" src="images/IMG_0840.jpg">
+
+</div>
+</div>
+<div class="col-xs-6 col-sm-6 col-md-3 ">
+<div class="gallery-images">
+<img class="img-responsive" src="images/IMG_0394.jpg">
+
+</div>
+</div>
+ <div class="col-xs-6 col-sm-6 col-md-3 ">
+<div class="gallery-images">
+ <img class="img-responsive" src="images/IMG_0828.jpg">
+
+</div>
+ </div>
+<div class="col-xs-6 col-sm-6 col-md-3 ">
+<div class="gallery-images">
+<img class="img-responsive" src="images/IMG_0832.jpg">
+
+</div>
+</div>
+<div class="col-xs-6 col-sm-6 col-md-3 ">
+<div class="gallery-images">
+<img class="img-responsive" src="images/IMG_0835.jpg">
+
+</div>
+</div>
+<div class="col-xs-6 col-sm-6 col-md-3 ">
+<div class="gallery-images">
+<img class="img-responsive" src="images/IMG_0836.jpg">
+
+</div>
+</div>
+
+</div>
+<!---gallery-images-->
+    </div><!--/container-->
+    </section>
+    <script type="text/javascript">
+  $('[data-toggle="popover"]').popover({
+        placement : 'top',
+        trigger: 'hover'
+    });
+</script>
+<!-----FOOTER SECTION---->
+<footer>
+
+   <section id="footer">
+					<div class="container">
+					<div class="row">
+					<div class="col-md-4 col-sm-6 text-center">
+					<div class="images">
+<h2>ISM</h2>
+							<img src="images/ISM.png" class="img-circle">
+
+							<h4>INSTITUTE OF SOCIAL MEDIA</h4>
+							</div>
+							</div>
+
+
+				<div class="col-md-4 col-sm-6  text-center">
+						<h2 class="text-justify">ADDRESS</h2>
+						<h4 class="text-justify">4-2-78, Hari Villasamu</h4>
+						<h4 class="text-justify">BCAS College Road,Near New BusStand</h4>
+						<h4 class="text-justify">Bapatla - 522101</h4>
+
+						</div>
+		<div class="contact">
+			<div class="col-md-4 col-sm-6  text-center">
+						<h2 class="text-justify">CONTACT</h2>
+
+					<h4 class="text-justify"> <strong><i class="fa fa-envelope" aria-hidden="true"></i>:</strong> info@yourdomain.com</h4>
+						<h4 class="text-justify"><strong><i class="fa fa-phone-square" aria-hidden="true"></i> :</strong> +(91)-8643-222111, 220101 </h4>
+						<h4 class="text-justify"><strong><i class="fa fa-mobile" aria-hidden="true"></i>:</strong>+(91)-8886273630</h4>
+						</div>
+			</div>
+		</div>
+		</div>
+		</section>
+		<section id="icons">
+			<div class="container">
+
+
+    <div class="text-center">
+
+     <i class="fa fa-facebook circle-icon"></i>
+  <i class="fa fa-twitter circle-icon"></i>
+   <i class="fa fa-google-plus circle-icon"></i>
+   <i class="fa fa-linkedin circle-icon"></i>
+
+            </div>
+
+		<div class="row copyright">
+                        <div class="col-md-12">
+                           <p class="text-center">&copy Copyrights 2017.Gemini Consulting and Services</p>
+                        </div>
+						</div>
+            </div>
+						</section>
+</footer>
+
+</body>
+</html>
